@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    background-image: url("imgfund.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000;
+}
+
+
+header {
+    font-family: 'Luckiest Guy', cursive;
+    background-color: rgba(0, 0, 0, 0.85); 
+    border-radius: 35px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    margin: 20px auto;
+    text-align: center;
+    color: #f30000;
+}
+
+
+.caixatexto, .caixatexto2 {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.85); 
+    border-radius: 35px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    width: 90%;
+    max-width: 800px;
+    padding: 50px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.titulo {
+    color: #f30000;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.caixatexto p {
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+label {
+    display: block;
+    color: #f30000;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: left; 
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #f30000;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 8px rgba(243, 0, 0, 0.6);
+}
+.b1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f30000;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+.b1:hover {
+    background-color: #ffffff; 
+    color: #f30000;           
+    transform: scale(1.05);    
+    transition: all 0.3s ease; 
+}
+.checkbox input[type="checkbox"] {
+    display: inline-block;
+    width: auto;        
+    margin: 0;          
+    height: 20px;      
+    width: 20px;
+}
+
+
+.checkbox label {
+    display: inline-block;
+    margin-top: 0;     
+    cursor: pointer;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;   
+}

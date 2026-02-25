@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh; 
+    font-family: sans-serif;
+    background-image: url("imgfund.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000;
+}
+header {
+    font-family: 'Luckiest Guy', cursive;
+    margin-top: 0%;
+    background-color:  rgba(0, 0, 0, 0.8);  
+    color: #f30000;              
+    text-align: center;        
+    padding: 20px 0;            
+    margin-bottom: 30px;       
+}
+.video{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.caixatexto{
+    display: block;
+    margin-left: 30 px auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.85); 
+    border-radius: 35px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 800px;
+    padding: 50px;
+    margin: 20px auto;
+}
+.titulo{
+    color: #f30000;
+
+}
+.caixatexto h2{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 25px;
+
+}
+.caixatexto p{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 18px;
+}
+.b1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f30000;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px 60px;
+  cursor: pointer;
+
+}
+.b1:hover {
+    background-color: #ffffff; 
+    color: #f30000;           
+    transform: scale(1.05);    
+    transition: all 0.3s ease; 
+}
+.Vip:hover, .Camarote:hover, .Pista:hover {
+    background-color: #ffffff;
+    color: #f30000;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.audio {
+    background-color: rgba(0, 0, 0, 0.8);           
+    border-radius: 35px;           
+    padding: 15px;                 
+    width: fit-content;            
+    margin: 20px auto;             
+    display: flex;                 
+    justify-content: center;
+}
+.caixatexto2{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color:#f30000;
+    display: block;
+    margin-left: 30 px auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.85); 
+    border-radius: 35px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 800px;
+    padding: 50px;
+    margin: 20px auto;
+}
+.caixatexto h1{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 40px; 
+}
+.Vip {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f30000;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+.Camarote{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f30000;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+.Pista{    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f30000;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+
